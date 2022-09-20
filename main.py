@@ -3,6 +3,6 @@ from operator import truediv
 
 def additionChecker(x, y, z):
     if x + y == z:
-        return "true"
+        return True
     else:
-        return "false"
+        return False
